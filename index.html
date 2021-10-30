@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="icon" href="images/max.png" type="image/png"> 
+         
+         <!-- indicaciones de los metas-->
+         <meta charset="UTF-8"/>
+         <!--hoja de esilo(internas o externas)-->
+         <meta name="descripcion" content="Uso de Tablas con SSC "/>
+         <meta name="keywords" content="Practica 06 "/>
+         <meta name="author"  content="Maximino Mejía Ruíz, maximinomejiaruiz@gmail.com"/>
+         <meta http-equiv="refresh" content="20">
+         <meta name="description" lang="es" content="" />
+         <meta name="robots" content="index, Follow">
+         <meta http-equiv="pragma" content="no-cache" >
+         <meta name="languege" content="ES"/>
+ 
+           <title>..:: Estructura en HTML usando div ::.. </title>
+        <style type="text/css">
+        *{}
+        #body{
+            background-color: #A52A2A;
+        }
+        #contenedor{
+            background-color:darkgray;
+            width: 1100px;
+            height: 2227px;
+            margin: 0 auto 0 auto;
+            border-radius: 16px;
+
+        }
+
+        #cabecera{
+            color: rgb(255, 230, 0);
+            text-align: center;
+            width: 1100px;
+            height: 80px;
+            margin: 0 auto 0 auto;
+            background-color: rgb(5, 5, 5);
+            font-size: 40px;
+            font-weight: bold;
+            padding-top: 60px;
+            padding-bottom: 40px;
+            
+            
+        }
+        #texto{
+            background-color:green ;
+            text-align: center;
+            width: 1100px;
+            height: 30px;
+            margin: 0 auto 0 auto;
+            color: honeydew;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 15px;
+            
+
+        }
+        .flores{
+            background-color:rgb(0, 244, 252);
+            width: 300px;
+            height: 450px;
+            text-align: justify;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            float: left;
+            font-size: 14px;
+            border: 2px solid #000000;
+            border-radius: 16px;
+            padding: 0px 4px 0px 4px;
+            
+            
+
+        }
+        #altar{
+            background-color: gold;
+            width: 470px;
+            height: 432px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: o auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+            
+        }
+        #pan{
+            background-color: rgb(0, 244, 252);
+            width:310px ;
+            height: 432px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+        }
+
+        #velas{
+            background-color:darkorchid;
+            width: 540px;
+            height: 350px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+
+        }
+
+        #copal{
+            background-color:rgb(235, 60, 191);
+            width: 552px;
+            height: 350px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+
+        }
+
+        #dulces{
+            background-color:rgb(0, 244, 252);
+            width: 300px;
+            height: 450px;
+            text-align: justify;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 17px;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+
+        }
+
+        #imagenes{
+            background-color: gold;
+            width: 477px;
+            height: 450px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+
+        }
+
+        #agua{
+            background-color: rgb(0, 244, 252);
+            width:311px ;
+            height: 450px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+
+        }
+        #sal{
+            background-color:darkorchid;
+            width: 540px;
+            height: 355px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+        }
+        #cruz{
+            background-color:rgb(235, 60, 191);
+            width: 552px;
+            height: 355px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            padding-top: 18px;
+            text-align: justify;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            font-size: 14px;
+            float: left;
+            font-size: 15px;
+        }
+
+        #fuente{
+            color: rgb(255, 230, 0);
+            text-align:left ;
+            width: 1096px;
+            height: 80px;
+            margin: 0 auto 0 auto;
+            background-color: rgb(5, 5, 5);
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 23px;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            float: left;
+        }
+        #menu{
+            background-color: khaki;
+            width: 1100px;
+            height: 215px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto 0 auto;
+            color: rgb(13, 0, 194);
+            border: 2px solid #000000;
+            border-radius: 16px;
+            
+        }
+        
+
+         </style>
+    </head>
+
+    <body id="body" >
+
+       <div id="contenedor"> 
+
+        <div id="cabecera">Día De Muertos</div>
+
+        <div id="texto">Catálogo De Dia De Muerto</div>
+
+        <div id="menu"><center><b>Elementos</b></center>
+            <ul >
+                <li><a href="#flores">flor de cempasúchil</a></li>
+                <li><a href="#altar">Altar</a></li>
+                <li><a href="#pan">Pan</a></li>
+                <li><a href="#velas">Velas</a></li>
+                <li><a href="#copal">Copal</a></li>
+                <li><a href="#dulces">Dulces</a></li>
+                <li><a href="#imagenes">Imagenes</a></li>
+                <li><a href="#agua">Agua</a></li>
+                <li><a href="#sal">Sal</a></li>
+                <li><a href="#cruz">Cruz</a></li>
+                
+             </ul>
+         </div>
+            
+
+        <div class="flores" >
+            <h4 id="flores" font color="green"><center><b>Flor De Cempasúchil</b></center></h4>
+            <center><img src="images/flor1.jpg" border="1px" width="200px"  height="120px" hspace="5px" vspace="7px" alt="flor" >
+            
+             <p><b>Descripción</b></center><br>
+                 La flor de Cempasúchil es originaria de México, su nombre proviene del náhuatl 
+                “Cempohualxochitl” que significa “veinte flores” o “ varias flores”. Nuestros 
+                antepasados asimilaban el color amarillo de la flor de cempasúchil con el sol, 
+                razón por la que la utilizaban en las ofrendas dedicadas en honor a sus muertos. 
+                La tradición marca hacer senderos con las flores de cempasúchil, desde el camino 
+                principal hasta el altar de la casa con la finalidad de guiar a las almas hacia los altares. </p>
+        </div>
+
+        <div id="altar"><center><p><b>Altar</b></p>
+            <img src="images/altar.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="2px" alt="altar">
+            
+            <p><b>Descripción</b></p>
+            </center>
+            <p>El altar de muertos​ es un elemento fundamental en el conjunto de tradiciones mexicanas del 
+                Día de Muertos, que consiste en instalar altares domésticos en honor de los muertos de la 
+                familia donde se ofrece como ofrenda alimentos, velas, flores y objetos de uso cotidiano del difunto.
+                El altar de muertos busca que tanto los vivos como los muertos puedan compartir un momento 
+                de reunión, al repartir el pan, el agua, la sal, el vino, entre otras cosas que contiene la ofrenda.</p>
+
+        </div>
+
+        <div id="pan"><center><p><b>Pan De Muerto</b></p>
+            <img src="images/pan.png" border="1px" width="200px" height="120px" hspace="1px" vspace="5px" alt="pan">
+            <p><b>Descripción</b></p></center>
+            <p>Término con el que se designa a distintos panes de dulce de diferentes masas y formas 
+                que se elaboran para conmemorar el día de Muertos o de Todos los Santos. Se trata de 
+                un estilo de pan de carácter ceremonial que se coloca en los altares dispuestos para 
+                honrar la memoria de los seres queridos.</p>
+
+        </div>
+
+        <div id="velas"><center><p><b>Velas</b></p>
+            <img src="images/velas.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="5px" alt="velas">
+            <p><b>Descripción</b></p></center>
+            <p>Velas y veladoras, que significan la luz, la fe y la esperanza y se utilizan para 
+                guiar a las ánimas de regreso a sus hogares. En algunas comunidades indígenas, cada 
+                vela o veladora representa un difunto, por lo que la cantidad dependerá del número 
+                de almas que quieran recibir.</p>
+
+        </div>
+
+        <div id="copal"><center><p><b>Copal</b></p>
+            <img src="images/copal.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="5px" alt="copal">
+            <p><b>Descripción</b></p></center>
+
+            <p>El copal era ofrecido por los indígenas a sus dioses ya que el incienso aún no 
+                se conocía, este llegó con los españoles. Es el elemento que sublima la oración 
+                o alabanza. Fragancia de reverencia. Se utiliza para limpiar al lugar de los malos 
+                espíritus y así el alma pueda entrar a su casa sin ningún peligro. </p>
+
+        </div>
+
+        <div id="dulces"><center><p><b>Dulces</b></p>
+            <img src="images/dulces.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="5px" alt="dulce">
+            <p><b>Descripción</b></p> </center>
+
+            <p>Actualmente, el altar de muertos se decora con diferentes platillos y bebidas 
+                que gustaban a los “fieles difuntos” y con una gran variedad de dulces, como 
+                las tradicionales calaveritas, las cuales se elaboran con una técnica llamada 
+                alfeñique (palabra que deriva del sánscrito “phañita” y significa pasta de azúcar), 
+                misma que fue introducida por los españoles durante la conquista. Consiste en 
+                una especie de caramelo formado de azúcar. </p>
+
+        </div>
+
+        <div id="imagenes"><center><p><b>Imagenes</b></p>
+            <img src="images/imagenes.webp" border="1px" width="200px" height="120px" hspace="1px" vspace="2px" alt="imagenes">
+            <p><b>Descripción</b></p></center>
+            <p>Honra a la persona que fue en vida. Algunas comunidades ponen la imagen 
+                escondida para que sólo se vea en un espejo y así dan a entender que se 
+                puede ver pero no existe.<br>
+                <p aling="center"><b>fotografía de Niños</b></p>
+                Las fotografías de niños difuntos eran llamadas de “angelitos”, debido 
+                la inocencia de las criaturas que encontraban una muerte a tan temprana 
+                edad. ... La fotografía mortuoria no tenía un sentido morboso. Era sólo 
+                una forma de duelo y un recuerdo que conservaba la familia del familiar 
+                querido que había dejado este mundo.</p>
+
+        </div>
+
+        <div id="agua"><center><p><b>Agua</b></p>
+                <img src="images/agua.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="2px" alt="agua">
+                <p><b>Descripción</b></p></center>
+                <p>
+                    El agua, está relacionada con la fuente de vida, por lo que se ofrece a las 
+                    ánimas para aliviar la sed del difunto después del largo recorrido que tuvo 
+                    que hacer para llegar al que alguna vez fue su hogar, e incluso en algunas 
+                    religiones el agua también está ligada a la pureza de las almas</p>
+
+        </div>
+
+        <div id="sal"><center><p><b>Sal</b></p>
+            <img src="images/sal.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="2px" alt="sal">
+            <p><b>Descripción</b></p></center>
+            <p>
+                Elemento purificador que ayuda al cuerpo a no corromperse en su traslado. Es la 
+                parte esencial de la celebración de muertos; se cree que las ánimas regresan a 
+                disfrutar los platillos, a probar la fruta y a contemplar la flor de cempasúchil 
+                que se les ofrece. De esta forma, vivos y muertos se reencuentran en una dimensión 
+                que les permite convivir.</p>
+
+    </div>
+
+    <div id="cruz"><center><p><b>Cruz</b></p>
+        <img src="images/cruz.jpg" border="1px" width="200px" height="120px" hspace="1px" vspace="2px" alt="cruz">
+        <p><b>Descripción</b></p></center>
+        <p margin="5px">Una cruz grande de ceniza, sirve para que al llegar el ánima hasta el 
+            altar pueda expiar sus culpas pendientes. El altar puede ser adornado 
+            con papel picado, con telas de seda y satín donde descansan también figuras 
+            de barro, incensario o ropa limpia para recibir a las ánimas.
+            Elemento introducido durante la evangelización, se coloca en la parte 
+            superior del altar; a veces está formado con ceniza, otras con sal o 
+            pétalos de cempasúchil.</p>
+
+    </div>
+
+    <div id="fuente"><p></b></p>
+        
+        
+        
+
+    </div>
+
+    </div>
+     </body>
+</html>
